@@ -28,4 +28,19 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+ApplyMigration();
+
 app.Run();
+
+void ApplyMigration(){
+    //get all the services
+    using(var scope=app.Services.CreateScope()){
+        //it will give us the app db context here
+        var _db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+        if(_db.Database.GetPendingMigrations().Count()>0){
+            _db.Database.Migrate();
+        }
+    }
+}
+

@@ -134,3 +134,4 @@
 /Users/irem/MICROSERVICES_DENEME/Services/Mango.Services.CouponAPI/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/irem/MICROSERVICES_DENEME/Services/Mango.Services.CouponAPI/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/irem/MICROSERVICES_DENEME/Services/Mango.Services.CouponAPI/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/irem/MICROSERVICES_DENEME/Services/Mango.Services.CouponAPI/obj/Debug/net8.0/Mango.Services.CouponAPI.sourcelink.json
